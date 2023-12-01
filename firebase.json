@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Friendly_Quiz_Game",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
