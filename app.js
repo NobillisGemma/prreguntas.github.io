@@ -248,7 +248,7 @@ function checkAnswer(answer) {
     // change progress color to red
     answerIsWrong();
   }
-  count = -10;
+  count = 0;
   if (runningQuestion < lastQuestion) {
     runningQuestion++;
     renderQuestion();
