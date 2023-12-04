@@ -174,7 +174,7 @@ let questions = [
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
-const questionTime = 20; // 20s
+const questionTime = 60; // 20s
 
 let TIMER;
 let score = 0;
@@ -305,7 +305,7 @@ function scoreRender() {
 var myVar;
 
 function myLoader() {
-  myVar = setTimeout(showPage, 10000);
+  myVar = setTimeout(showPage, 15000);
 }
 
 function showPage() {
